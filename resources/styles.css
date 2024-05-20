@@ -31,6 +31,14 @@ a {
   color: #00beff;
 }
 
+.box-shadow-blue {
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.description-b {
+  font-weight: inherit;
+}
+
 nav.navbar a {
   font-weight: 400;
   display: inline-block;
