@@ -26,6 +26,15 @@ function ShowModal(buttonclicked) {
 
 function GetData(buttonId) {
   switch (buttonId) {
+    case "button-terminal-bachelors":
+      Title = "Bachelors";
+      break;
+    case "button-terminal-certification-it":
+      Title = "IT+";
+      break;
+    case "bbutton-terminal-award-teacher-performance":
+      Title = "Award";
+      break;
     case "button-project-onlinedice":
       Title = "Online Dice";
       VideoUrl = "https://www.youtube.com/embed/VK2kjvcI6n0?autoplay=0&mute=0";
