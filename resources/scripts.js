@@ -32,7 +32,7 @@ function GetData(buttonId) {
     case "button-terminal-certification-it":
       Title = "IT+";
       break;
-    case "bbutton-terminal-award-teacher-performance":
+    case "button-terminal-award-teacher-performance":
       Title = "Award";
       break;
     case "button-project-onlinedice":
