@@ -49,7 +49,7 @@ function GetData(buttonId) {
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-4">
-            <img class="img-fluid mb-3" src="/resources/img/certifications/Bachelors.jpg" alt="Bachelor's Degree"/>
+            <img class="img-fluid mb-3 project-modal-container-certification-image" src="/resources/img/certifications/Bachelors.jpg" alt="Bachelor's Degree"/>
           </div>
           <div class="col-12 col-md-8">
             <p style="background-color:red;">Hello World</p>
@@ -68,7 +68,7 @@ function GetData(buttonId) {
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-4">
-            <img class="img-fluid mb-3" src="/resources/img/certifications/CISCO-IT-Essentials.jpg" alt="CISCO It Fundamentals Certification"/>
+            <img class="img-fluid mb-3 project-modal-container-certification-image" src="/resources/img/certifications/CISCO-IT-Essentials.jpg" alt="CISCO It Fundamentals Certification"/>
           </div>
           <div class="col-12 col-md-8">
             <p style="background-color:red;">Hello World</p>
