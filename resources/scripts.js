@@ -42,57 +42,38 @@ function GenerateModalHTMLBodyTemplate(isVideo, videoUrl, customLayout) {
 function GetData(buttonId) {
   switch (buttonId) {
     case "button-terminal-bachelors":
-      Title = "Bachelors";
+      Title = "Bachelor's Degree";
       IsVideo = false;
       VideoUrl = "";
       CustomLayout = `
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-4">
-            <img class="img-fluid mb-3" src="/resources/img/Selfie.jpg"/>
+            <img class="img-fluid mb-3" src="/resources/img/certifications/Bachelors.jpg" alt="Bachelor's Degree"/>
           </div>
           <div class="col-12 col-md-8">
             <p style="background-color:red;">Hello World</p>
-            <button class="button-blue"><i class="bi bi-eye me-2"></i>View</button>
-            <button class="button-blue"><i class="bi bi-download me-2"></i>Download</button>
+            <a target="_blank" href="/resources/img/certifications/Bachelors.jpg" class="button-blue"><i class="bi bi-eye me-2"></i>View</a>
+            <a class="button-blue" download="Rogelio Herrera Bachelor's Degree" href="/resources/img/certifications/Bachelors.jpg" title="Rogelio Herrera Bachelor's Degree" ><i class="bi bi-download me-2"></i>Download</a>
           </div>
        </div>
       </div>
       `;
       break;
     case "button-terminal-certification-it":
-      Title = "IT+";
+      Title = "IT Fundamentals by CISCO";
       IsVideo = false;
       VideoUrl = "";
       CustomLayout = `
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-4">
-            <img class="img-fluid mb-3" src="/resources/img/Selfie.jpg"/>
+            <img class="img-fluid mb-3" src="/resources/img/certifications/CISCO-IT-Essentials.jpg" alt="CISCO It Fundamentals Certification"/>
           </div>
           <div class="col-12 col-md-8">
             <p style="background-color:red;">Hello World</p>
-            <button class="button-blue"><i class="bi bi-eye me-2"></i>View</button>
-            <button class="button-blue"><i class="bi bi-download me-2"></i>Download</button>
-          </div>
-       </div>
-      </div>
-      `;
-      break;
-    case "button-terminal-award-teacher-performance":
-      Title = "Award";
-      IsVideo = false;
-      VideoUrl = "";
-      CustomLayout = `
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-4">
-            <img class="img-fluid mb-3" src="/resources/img/Selfie.jpg"/>
-          </div>
-          <div class="col-12 col-md-8">
-            <p style="background-color:red;">Hello World</p>
-            <button class="button-blue"><i class="bi bi-eye me-2"></i>View</button>
-            <button class="button-blue"><i class="bi bi-download me-2"></i>Download</button>
+            <a target="_blank" href="/resources/img/certifications/CISCO-IT-Essentials.jpg" class="button-blue"><i class="bi bi-eye me-2" ></i>View</a>
+            <a class="button-blue" download="Rogelio Herrera CISCO IT Essentials Certification" href="/resources/img/certifications/CISCO-IT-Essentials.jpg" title="Rogelio Herrera CISCO IT Essentials Certification" ><i class="bi bi-download me-2"></i>Download</a>
           </div>
        </div>
       </div>
