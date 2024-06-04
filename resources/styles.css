@@ -406,13 +406,16 @@ div:where(.swal2-container) button:where(.swal2-close):focus {
 
 @media only screen and (max-width: 768px) {
   .project-modal-container-certification-image {
-    max-height: 200px;
+    max-height: 150px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .swal2-modal {
     width: 80% !important;
+  }
+  .project-modal-container-certification-image {
+    max-height: 250px;
   }
 }
 

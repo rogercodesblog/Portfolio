@@ -42,38 +42,36 @@ function GenerateModalHTMLBodyTemplate(isVideo, videoUrl, customLayout) {
 function GetData(buttonId) {
   switch (buttonId) {
     case "button-terminal-bachelors":
-      Title = "Bachelor's Degree";
+      Title = "Bachelor's Degree in Computer Science";
       IsVideo = false;
       VideoUrl = "";
       CustomLayout = `
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-4">
+          <div class="col-12">
             <img class="img-fluid mb-3 project-modal-container-certification-image" src="/resources/img/certifications/Bachelors.jpg" alt="Bachelor's Degree"/>
-          </div>
-          <div class="col-12 col-md-8">
-            <p style="background-color:red;">Hello World</p>
-            <a target="_blank" href="/resources/img/certifications/Bachelors.jpg" class="button-blue"><i class="bi bi-eye me-2"></i>View</a>
-            <a class="button-blue" download="Rogelio Herrera Bachelor's Degree" href="/resources/img/certifications/Bachelors.jpg" title="Rogelio Herrera Bachelor's Degree" ><i class="bi bi-download me-2"></i>Download</a>
+             <div>
+              <a target="_blank" href="/resources/img/certifications/Bachelors.jpg" class="button-blue"><i class="bi bi-eye me-2"></i>View</a>
+              <a class="button-blue" download="Rogelio Herrera Bachelor's Degree in Computer Science" href="/resources/img/certifications/Bachelors.jpg" title="Rogelio Herrera Bachelor's Degree in Computer Science" ><i class="bi bi-download me-2"></i>Download</a>
+             </div>
           </div>
        </div>
       </div>
       `;
       break;
     case "button-terminal-certification-it":
-      Title = "IT Fundamentals by CISCO";
+      Title = "IT Fundamentals by CISCO Networking Academy";
       IsVideo = false;
       VideoUrl = "";
       CustomLayout = `
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-4">
-            <img class="img-fluid mb-3 project-modal-container-certification-image" src="/resources/img/certifications/CISCO-IT-Essentials.jpg" alt="CISCO It Fundamentals Certification"/>
-          </div>
-          <div class="col-12 col-md-8">
-            <p style="background-color:red;">Hello World</p>
-            <a target="_blank" href="/resources/img/certifications/CISCO-IT-Essentials.jpg" class="button-blue"><i class="bi bi-eye me-2" ></i>View</a>
-            <a class="button-blue" download="Rogelio Herrera CISCO IT Essentials Certification" href="/resources/img/certifications/CISCO-IT-Essentials.jpg" title="Rogelio Herrera CISCO IT Essentials Certification" ><i class="bi bi-download me-2"></i>Download</a>
+          <div class="col-12">
+           <img class="img-fluid mb-3 project-modal-container-certification-image" src="/resources/img/certifications/CISCO-IT-Essentials.jpg" alt="CISCO It Fundamentals Certification"/>
+            <div>
+             <a target="_blank" href="/resources/img/certifications/CISCO-IT-Essentials.jpg" class="button-blue"><i class="bi bi-eye me-2" ></i>View</a>
+             <a class="button-blue" download="Rogelio Herrera IT Fundamentals by CISCO Networking Academy" href="/resources/img/certifications/CISCO-IT-Essentials.jpg" title="Rogelio Herrera IT Fundamentals by CISCO Networking Academy" ><i class="bi bi-download me-2"></i>Download</a>
+            </div>
           </div>
        </div>
       </div>
