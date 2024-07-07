@@ -4,6 +4,10 @@
 This is my portfolio website, this serves as a mean to display my skills and projects in a visual way, making it easier for recruiters and companies.
 </p>
 
+<p align="left">
+This site layout goes as follows, starting with a home section with general information, a picture and a couple of buttons that redirect the visitor to sites of interest.
+</p>
+
 <p align="center">
     <img src="/Screenshots/Home-1.png">
 </p>
