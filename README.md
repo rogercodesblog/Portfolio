@@ -15,6 +15,10 @@ This site layout goes as follows, starting with a home section with general info
     <img src="/Screenshots/Home-2.png">
 </p>
 
+<p align="left">
+Next, we have a section with general info, skills and paperwork, for the design, I went for a 'console' aesthetic.
+</p>
+
 <p align="center">
     <img src="/Screenshots/Info-1.png">
 </p>
