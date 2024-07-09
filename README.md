@@ -36,6 +36,11 @@ Down below, we have the "projects" section, as the name implies, here is where I
 <p align="center">
     <img src="/Screenshots/projects-1.png">
 </p>
+
+<p align="left">
+Each project has buttons that shows information to the user.
+</p>
+
 <p align="center">
     <img src="/Screenshots/projects-2.png">
 </p>
