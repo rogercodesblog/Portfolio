@@ -29,6 +29,10 @@ Next, we have a section with general info, skills and paperwork, for the design,
     <img src="/Screenshots/Info-modal.png">
 </p>
 
+<p align="left">
+Down below, we have the "projects" section, as the name implies, here is where I share projects that are worth mentioning.
+</p>
+
 <p align="center">
     <img src="/Screenshots/projects-1.png">
 </p>
