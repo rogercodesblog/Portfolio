@@ -44,6 +44,11 @@ Each project has buttons that shows information to the user.
 <p align="center">
     <img src="/Screenshots/projects-2.png">
 </p>
+
+<p align="left">
+Some projects have a "Video" button, which opens a modal with a spinner that loads a demo video.
+</p>
+
 <p align="center">
     <img src="/Screenshots/project-modal-loader.png">
 </p>
