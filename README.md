@@ -55,7 +55,9 @@ Some projects have a "Video" button, which opens a modal with a spinner that loa
 <p align="center">
     <img src="/Screenshots/project-modal-video.png">
 </p>
-
+<p align="left">
+At the very bottom, we have a contact section that includes buttons with my email and social media.
+</p>
 <p align="center">
     <img src="/Screenshots/contact.png">
 </p>
